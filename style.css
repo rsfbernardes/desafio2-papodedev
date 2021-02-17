@@ -1,0 +1,54 @@
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.container {
+    width: 403px;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    --background-color: blue;
+
+}
+
+.container__photo {
+    top: 10px;
+    width: 104px;
+    height: 104px;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.container__name {
+    position: absolute;
+    top: 120px;
+}
+
+.container__subtitle {
+    position: absolute;
+    top: 150px;
+}
+
+.container__paragraph {
+    position: absolute;
+    top: 170px;
+}
+
+.container__midias-sociais {
+    position: absolute;
+    justify-content: center;
+    top: 190px;
+}
