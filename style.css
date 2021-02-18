@@ -19,7 +19,7 @@ body {
     justify-content: center;
     position: relative;
     margin: auto;
-    --background-color: blue;
+    background-color: blue;
 
 }
 
@@ -51,4 +51,14 @@ body {
     position: absolute;
     justify-content: center;
     top: 190px;
+}
+
+.container2 {
+    width: 403px;
+    height: 250px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: -200px auto;
 }
