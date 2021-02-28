@@ -38,7 +38,7 @@ body {
 
 .container__name {
     position: absolute;
-    top: 120px;
+    top: 125px;
 }
 
 .container__subtitle {
@@ -66,6 +66,10 @@ body {
 .container__midias-sociais a i {
     font-size: 25px;
     color: black;
+}
+
+.container__midias-sociais i:hover {
+    font-size: 40px;
 }
 
 .container2 {
