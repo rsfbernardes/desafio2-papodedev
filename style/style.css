@@ -38,17 +38,17 @@ body {
 
 .container__name {
     position: absolute;
-    top: 125px;
+    top: 135px;
 }
 
 .container__subtitle {
     position: absolute;
-    top: 145px;
+    top: 155px;
 }
 
 .container__subtitle-icons {
     position: absolute;
-    top: 165px;
+    top: 175px;
 }
 
 .container__midias-sociais {
