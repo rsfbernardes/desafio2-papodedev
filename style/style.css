@@ -46,37 +46,50 @@ body {
     top: 155px;
 }
 
-.container__subtitle-icons {
-    position: absolute;
-    top: 175px;
+.container2 {
+    background: linear-gradient(135deg, #6730EC, #7984EE);
+    width: 100%;
+    height: 100%;
+    margin: -405px auto;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    margin-top: 210px;
 }
 
 .container__midias-sociais {
-    display: flex;
-    position: relative;
     height: 46px;
     width: 223px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 192px;
     background: rgba(224,224,224,.35);
     border-radius: 50px;
+    position: absolute;
+    top: -22px;
+    left: calc(50% - 111px);
 }
 
-.container__midias-sociais a i {
+.container__midias-sociais a  {
+    border-radius: 50%;
     font-size: 25px;
     color: black;
+}
+
+.container__subtitle-icons {
+    position: absolute;
+    top: 175px;
+    font-size: 15px;
 }
 
 .container__midias-sociais i:hover {
     font-size: 40px;
 }
 
-.container2 {
-    background: linear-gradient(135deg, #6730EC, #7984EE);
-    width: 300px;
-    height: 530px;
-    margin: -405px auto;
+.container2__video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 0 70px;
 }
 
 .container2_button {
@@ -86,8 +99,63 @@ body {
     justify-content: center;
     height: 35px;
     width: 223px;
-    margin: 10px 30px;
-    top: 50px;
+    margin: 10px auto;
     background: rgba(224,224,224,.35);
     border-radius: 50px;
 }
+
+
+/* Cópia do Papo de Dev
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(101.07deg, #2e3c87 7.93%, #6a1094 93.3%);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    width: 500px;
+    height: calc(100vh - 20px);
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+
+.container .container__photo {
+    width: 104px;
+    height: 104px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 9;
+}
+
+.container__name {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container .container__subtitle {
+    font-size: 14px;
+    color: #E3E3E3;
+}
+
+*/
