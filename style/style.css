@@ -89,6 +89,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     margin: 75px 0 70px;
 }
 
@@ -102,6 +103,12 @@ body {
     margin: 10px auto;
     background: rgba(224,224,224,.35);
     border-radius: 50px;
+}
+
+.container2 p {
+    margin: 50px 100px;
+    position: absolute;
+    font-size: 15px;
 }
 
 
