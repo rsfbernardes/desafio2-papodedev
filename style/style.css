@@ -1,15 +1,15 @@
+:root {
+    --bg-color: #274075;
+    --bg2-color: #F1D302;
+    --bgbt-color: #FDFFFC;
+    --text-color: #161925;
+}
+
 /* Reset Css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --bg-color: #274075;
-    --bg2-color: #4069C2;
-    --bgbt-color: #9BB8F7;
-    --text-color: #686D78;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     align-items: center;
     /*color: rgba(0, 0, 0, .75);*/
     color: var(--text-color);
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .container .container__photo {
