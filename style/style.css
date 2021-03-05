@@ -31,7 +31,7 @@ body {
     align-items: center;
     /*color: rgba(0, 0, 0, .75);*/
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .container .container__photo {
@@ -46,12 +46,12 @@ body {
 
 .container__name {
     position: absolute;
-    top: 135px;
+    margin-top: 115px;
 }
 
 .container__subtitle {
     position: absolute;
-    top: 155px;
+    margin-top: 165px;
 }
 
 .container2 {
@@ -61,7 +61,7 @@ body {
     height: 100%;
     border-radius: 50px 50px 0 0;
     position: relative;
-    margin-top: 210px;
+    margin-top: 300px;
 }
 
 .container__midias-sociais {
@@ -80,14 +80,14 @@ body {
 
 .container__midias-sociais a  {
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(0, 0, 0);
 }
 
 .container__subtitle-icons {
     position: absolute;
-    top: 175px;
-    font-size: 15px;
+    margin-top: 205px;
+    font-size: 35px;
 }
 
 .container__midias-sociais i:hover {
@@ -118,5 +118,5 @@ body {
 .container2 p {
     margin: 50px 100px;
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
 }
