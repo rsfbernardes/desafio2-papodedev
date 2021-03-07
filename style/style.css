@@ -1,7 +1,7 @@
 :root {
-    --bg-color: #274075;
-    --bg2-color: #F1D302;
-    --bgbt-color: #FDFFFC;
+    --blue-color: #274075;
+    --yelow-color: #F1D302;
+    --white-color: #FDFFFC;
     --text-color: #FDFFFC;
 }
 
@@ -15,7 +15,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     /*background: #D2F6FC;*/
-    background-color: var(--bg-color);
+    background-color: var(--blue-color);
     font-size: small;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     align-items: center;
     /*color: rgba(0, 0, 0, .75);*/
-    color: var(--text-color);
+    color: var(--white-color);
     font-size: 30px;
 }
 
@@ -54,9 +54,20 @@ body {
     margin-top: 165px;
 }
 
+.container__subtitle-icons {
+    position: absolute;
+    margin-top: 205px;
+    font-size: 35px;
+}
+
+.container__midias-sociais i:hover {
+    font-size: 40px;
+}
+
 .container2 {
     /*background: #6730EC;*/
-    background: var(--bg2-color);
+    color: var(--blue-color);
+    background: var(--white-color);
     width: 100%;
     height: 100%;
     border-radius: 50px 50px 0 0;
@@ -64,7 +75,7 @@ body {
     margin-top: 300px;
 }
 
-.container__midias-sociais {
+.container2__midias-sociais {
     height: 46px;
     width: 223px;
     display: flex;
@@ -78,20 +89,10 @@ body {
     left: calc(50% - 111px);
 }
 
-.container__midias-sociais a  {
+.container2__midias-sociais a  {
     border-radius: 50%;
     font-size: 40px;
     color: rgb(0, 0, 0);
-}
-
-.container__subtitle-icons {
-    position: absolute;
-    margin-top: 205px;
-    font-size: 35px;
-}
-
-.container__midias-sociais i:hover {
-    font-size: 40px;
 }
 
 .container2__video {
@@ -107,12 +108,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35px;
-    width: 223px;
-    margin: 10px auto;
+    height: 45px;
+    width: 323px;
+    margin: 20px auto;
     /*background: #D2F6FC;*/
-    background: var(--bgbt-color);
+    border-radius: 50%;
+    background: none;
+    transition: all 500ms ease-in-out;
+}
+
+.container2_button:after {
+    content: "";
+    width: 45px;
+    height: 100%;
     border-radius: 50px;
+    background: var(--blue-color);
+    position: absolute;
+    
+    opacity: .3;
+    z-index: 1;
+    transition: inherit;
+}
+
+.container2_button:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 .container2 p {
