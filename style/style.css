@@ -1,8 +1,10 @@
 :root {
     --first-color: #274075;
-    --second-color: #FFA630;
-    --third-color: #FFF;
-    --icon-color: #1B2A41;
+    --second-color: #8D99AE;
+    /*
+    --first-color: #414361;
+    --second-color: #2B2D42;
+    */
 }
 
 /* Reset Css */
@@ -74,8 +76,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(180deg, var(--second-color), 
-                                    var(--first-color));
+    background: linear-gradient(180deg, var(--second-color), var(--first-color));
     border-radius: 50px;
     position: absolute;
     top: -32px;
